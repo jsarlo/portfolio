@@ -7,6 +7,15 @@
   color: black;
 }
 
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

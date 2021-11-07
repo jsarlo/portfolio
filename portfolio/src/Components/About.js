@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState} from 'react';
 import styled from 'styled-components';
 import Skills from './Skills';
 import Contact from './Contact';
@@ -8,12 +8,17 @@ import { Controller, Scene } from 'react-scrollmagic';
 const StyledMainContainer = styled.div`
   background-color: #21D4FD;
   background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
+  @media only screen and (max-width: 1000px) {
+    #fourth-container {
+      height: 250vh;
+    }
+  }
 `
 const StyledFirstContainer = styled.div`
   height: 50vh;
   #first-content {
     text-align: center;
-    padding: 19vh 0;
+    padding: 24vh 0;
   }
 `
 
@@ -21,7 +26,18 @@ const StyledSecondContainer = styled.div`
   height: 50vh;
 `
 
-const About = () => (
+const StyledFourthContainer = styled.div`
+  height: 100vh;
+`
+
+const StyledFifthContainer = styled.div`
+  height: 50vh;
+`
+
+
+const About = () => {
+  
+  return (
   <StyledMainContainer>
     <Controller>
       <Scene duration={200} triggerElement="#first-container" offset={500}>
@@ -110,7 +126,7 @@ const About = () => (
         </Scene>
       </Controller>
     </div>
-    <div id='fourth-container' style={{ height: '100vh' }}>
+    <div id='fourth-container'>
       <Controller>
         <Scene duration={200} triggerElement="#third-container" offset={500}>
           {(progress) => (
@@ -130,10 +146,10 @@ const About = () => (
               totalProgress={progress}
               paused
             >
-              <StyledSecondContainer id="fourth-container">
+              <StyledFourthContainer id="fourth-container">
                 <Skills/>
                
-              </StyledSecondContainer>
+              </StyledFourthContainer>
             </Tween>
           )}
         </Scene>
@@ -159,15 +175,15 @@ const About = () => (
               totalProgress={progress}
               paused
             >
-              <StyledSecondContainer id="fifth-container">
+              <StyledFifthContainer id="fifth-container">
                 <Contact/>
-              </StyledSecondContainer>
+              </StyledFifthContainer>
             </Tween>
           )}
         </Scene>
       </Controller>
     </div>
   </StyledMainContainer>
-);
+)};
 
 export default About;

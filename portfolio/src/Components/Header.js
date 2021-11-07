@@ -21,6 +21,11 @@ const StyledHeader = styled.div`
             margin: 5px;
         }
     }
+    @media only screen and (max-width: 1000px) {
+        .socials {
+            margin: 5vh;
+        }
+    }
 `
 
 class Header extends Component {
