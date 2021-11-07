@@ -15,7 +15,7 @@ const StyledMainContainer = styled.div`
   }
   @media only screen and (max-width: 600px) {
     #fourth-container {
-      height: 275vh;
+      height: 300vh;
     }
   }
 `
