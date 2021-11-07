@@ -15,7 +15,7 @@ background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
 }
 @media only screen and (min-height: 667px) {
   #fourth-container {
-    height: 300vh;
+    height: 290vh;
   }
 }
 @media only screen and (min-height: 736px) {
@@ -23,14 +23,14 @@ background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
     height: 250vh;
   }
 }
-@media only screen and (min-height: 823px) {
-  #fourth-container {
-    height: 275vh;
-  }
-}
 @media only screen and (min-height: 812px) {
   #fourth-container {
     height: 225vh;
+  }
+}
+@media only screen and (min-height: 823px) {
+  #fourth-container {
+    height: 275vh;
   }
 }
   @media only screen and (min-height: 1024px) {
