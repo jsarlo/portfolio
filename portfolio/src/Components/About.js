@@ -13,6 +13,11 @@ const StyledMainContainer = styled.div`
       height: 250vh;
     }
   }
+  @media only screen and (max-width: 600px) {
+    #fourth-container {
+      height: 275vh;
+    }
+  }
 `
 const StyledFirstContainer = styled.div`
   height: 50vh;
