@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Button from 'rsuite/Button';
 import { SocialIcon } from 'react-social-icons';
 
 

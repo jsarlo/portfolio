@@ -29,7 +29,7 @@ class Skills extends Component {
                             <img alt="dot NET logo" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" height="200" width="200" />
                             <Panel header=".NET">
                                 <p>
-                                    I've helped build REST APIs with the help of Microservices in C# wtih .NET core!
+                                    I've helped build REST APIs with the help of Microservices in C# with .NET core!
                                 </p>
                             </Panel>
                         </Panel>
