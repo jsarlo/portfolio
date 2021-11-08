@@ -20,7 +20,7 @@ background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
 }
 @media only screen and (max-height: 736px) and (max-width: 414px) {
   #fourth-container {
-    height: 250vh;
+    height: 275vh;
   }
 }
 @media only screen and (min-height: 812px) and (max-width: 375px) {

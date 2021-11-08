@@ -35,6 +35,7 @@ class Header extends Component {
             <div className="socials">
                 <SocialIcon className="socialIcon" url="https://www.linkedin.com/in/james-sarlo-8b26b648/"/>
                 <SocialIcon url="https://www.instagram.com/jamessarlo/"/>
+                <SocialIcon url="https://codepen.io/jsarlo"/>
             </div>
         </StyledHeader>
         )
