@@ -18,7 +18,7 @@ background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
     height: 290vh;
   }
 }
-@media only screen and (min-height: 736px) and (max-width: 414px) {
+@media only screen and (max-height: 736px) and (max-width: 414px) {
   #fourth-container {
     height: 250vh;
   }
@@ -30,10 +30,10 @@ background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
 }
 @media only screen and (min-height: 823px) and (max-width: 411px) {
   #fourth-container {
-    height: 275vh;
+    height: 250vh;
   }
 }
-  @media only screen and (min-height: 1024px) and (max-height: 768px) {
+  @media only screen and (min-height: 1024px) and (max-width: 768px) {
     #fourth-container {
       height: 175vh;
     }
