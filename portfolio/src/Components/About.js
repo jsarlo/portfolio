@@ -8,36 +8,34 @@ import { Controller, Scene } from 'react-scrollmagic';
 const StyledMainContainer = styled.div`
 background-color: #21D4FD;
 background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
-@media only screen and (max-height: 568px) and (max-width: 320px) {
-  #fourth-container {
-    height: 350vh;
-  }
-}
-@media only screen and (min-height: 667px) and (max-width: 375px) {
-  #fourth-container {
-    height: 290vh;
-  }
-}
-@media only screen and (max-height: 736px) and (max-width: 414px) {
-  #fourth-container {
-    height: 275vh;
-  }
-}
-@media only screen and (min-height: 812px) and (max-width: 375px) {
-  #fourth-container {
-    height: 225vh;
-  }
-}
-@media only screen and (min-height: 823px) and (max-width: 411px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
   #fourth-container {
     height: 250vh;
   }
 }
-  @media only screen and (min-height: 1024px) and (max-width: 768px) {
-    #fourth-container {
-      height: 175vh;
-    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #fourth-container {
+    height: 270vh;
   }
+}
+@media only screen and (max-width: 400px) {
+  #fourth-container { 
+    height: 275vh;
+  }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  #fourth-container {
+    height: 175vh;
+  } /* your css rules for ipad portrait */
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  #fourth-container {
+    height: 100vh;
+  } /* your css rules for ipad landscape */
+}
+
 `
 const StyledFirstContainer = styled.div`
   height: 50vh;
