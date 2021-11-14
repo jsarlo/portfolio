@@ -22,9 +22,15 @@ background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
 }
 @media only screen and (max-width: 400px) {
   #fourth-container { 
-    height: 275vh;
+    height: 285vh;
   }
 }
+@media only screen and (min-width: 992px) {
+  #fourth-container {
+    height: 100vh;
+  }
+}
+
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   #fourth-container {
     height: 175vh;
