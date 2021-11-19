@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { SocialIcon } from 'react-social-icons';
 import { IconButton } from 'rsuite';
 import { Icon } from '@rsuite/icons';
 
 import { MdOutlineDarkMode } from 'react-icons/md';
-import { useDarkMode } from './UseDarkMode';
 
 const StyledHeader = styled.div`
     width: 100%;
@@ -14,11 +13,6 @@ const StyledHeader = styled.div`
     display: flex;  
     flex-direction: row;
     align-items: center;
-    // button {
-    //     width: 10%;
-    //     height: 50%;
-    //     margin-left: 10vh;
-    // }
     .socials {
         margin: 10vh;
         > a {
@@ -40,7 +34,6 @@ const StyledHeader = styled.div`
 
 const Header = ({themeToggler}) => {
 
-    // const [theme, themeToggler] = useDarkMode();
 
     return (
         <StyledHeader>
