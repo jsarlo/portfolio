@@ -6,8 +6,6 @@ import { Tween } from 'react-gsap';
 import { Controller, Scene } from 'react-scrollmagic';
 
 const StyledMainContainer = styled.div`
-background-color: #21D4FD;
-background-image: linear-gradient(38deg, #21D4FD 0%, #B721FF 100%);
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
   #fourth-container {
